@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações de Textos</title>
+    <style>
+    mark {
+          background-color: bisque;  
+    }
+    </style>
+    <!--aqui crei um parâmetro para colocar cor de fundo em todas as tags "mark" mas pelo teste que fiz isso não se aplica à um style aplicado de forma individual como feito na tag MARk lá em baixo com a cor azul marinho claro eu acho.-->
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag <strong>&lt;b&gt;</strong>(não semântica)</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag <strong>&lt;strong&gt;</strong> (semântica).</p>
+    <p></p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag <strong>&lt;i&gt;</strong> (não semântica)</p>
+    <p>
+        Nesta frase, temos um <em>termo em ênfase</em> usando a tag <strong>&lt;em&gt;</strong>(semântica).
+    </p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também um <mark style="background-color: rgb(15, 182, 211);"> texto marcado</mark> usando a tag <strong>&lt;mark&gt;</strong></p> <!--Neste parágrafo estou usando css na tag MARK de forma individual, somenta para este MARK em específico-->
+    <p>E no outro parágrafo, temos <mark>
+        outro texto marcado
+    </mark> no final.
+    </p>
+    <h2>Texto Grande e Pequeno</h2>
+    <p>Estamos criando <big>um texto grande</big> e <small>um texto pequeno</small> nesse parágrafo. Para o texto pequeno estamos usando a tag <strong>&lt;small&gt;</strong></p>
+    <!--A tag big já é obsoleta e não deve ser usada, se quiser um texto maior recomenda-se utilizar css para alterar o tamanho-->
+    <h2>Texto Deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não conciderado usando a tag <strong>&lt;del&gt;</strong></p>
+    <h2>Texto Inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar ênfase e indicar que ele foi adicionado depois usando a tag <strong>&lt;ins&gt;</strong></p>
+    <p>Existe também o <u>sublinhado</u> com a tag <strong>&lt;u&gt;</strong> (não semântica).</p>
+    <h2>Texto Sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3 usanmos a tag <strong>&lt;sup&gt;</strong></p>
+    <h2>Texto Subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O usamos a tag <strong>&lt;sub&gt;</strong></p>
+</body>
+</html> 
